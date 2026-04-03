@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Store - Vente de Poulet Frais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🐔 Chicken Store</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <h1>Bienvenue chez Chicken Store</h1>
+            <p>Poulet frais d'élevage de qualité à Mbacké</p>
+            <button class="btn btn-primary" onclick="scrollToProducts()">Commander maintenant</button>
+        </div>
+    </section>
+
+    <!-- Section Produits/Images -->
+    <section id="produits" class="products">
+        <div class="container">
+            <h2>Nos Produits</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="image1.jpg" alt="Poulet frais 1">
+                    <h3>Poulet Fermier</h3>
+                    <p>Élevage naturel et sain</p>
+                </div>
+                <div class="product-card">
+                    <img src="image2.jpg" alt="Poulet frais 2">
+                    <h3>Poulet Premium</h3>
+                    <p>Qualité sup��rieure garantie</p>
+                </div>
+                <div class="product-card">
+                    <img src="image3.jpg" alt="Poulet frais 3">
+                    <h3>Poulet à Emporter</h3>
+                    <p>Préparation rapide et fraîche</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Nous Contacter</h2>
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>📍 Adresse</h3>
+                    <p>Mbacké, Sénégal</p>
+                </div>
+                <div class="info-card">
+                    <h3>📞 Téléphone</h3>
+                    <p><a href="tel:766970518">+221 766 970 518</a></p>
+                </div>
+                <div class="info-card">
+                    <h3>💬 WhatsApp</h3>
+                    <p><a href="https://wa.me/221766970518" target="_blank">Contactez-nous via WhatsApp</a></p>
+                </div>
+            </div>
+
+            <!-- Formulaire de Commande -->
+            <div class="order-form">
+                <h3>Passer une Commande</h3>
+                <form id="orderForm">
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre email" required>
+                    <input type="tel" placeholder="Votre numéro" required>
+                    <textarea placeholder="Détails de votre commande" rows="4" required></textarea>
+                    <button type="button" class="btn btn-success" onclick="submitOrder()">Envoyer via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Chicken Store. Tous droits réservés. | Mbacké, Sénégal</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

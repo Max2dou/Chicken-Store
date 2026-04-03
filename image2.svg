@@ -1,0 +1,13 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="lightyellow" />
+  <rect x="50" y="50" width="700" height="500" fill="white" stroke="black" stroke-width="2" />
+  <text x="400" y="40" font-size="24" text-anchor="middle" fill="black">Poultry Store Interior</text>
+  <rect x="100" y="100" width="200" height="300" fill="tan" stroke="black" stroke-width="2" />
+  <text x="200" y="120" font-size="16" text-anchor="middle" fill="black">Egg Shelf</text>
+  <circle cx="300" cy="400" r="30" fill="gold" />
+  <text x="300" y="400" font-size="16" text-anchor="middle" fill="black">Fresh Eggs</text>
+  <rect x="400" y="100" width="200" height="300" fill="lightgray" stroke="black" stroke-width="2" />
+  <text x="500" y="120" font-size="16" text-anchor="middle" fill="black">Poultry Meats</text>
+  <circle cx="500" cy="400" r="30" fill="red" />
+  <text x="500" y="400" font-size="16" text-anchor="middle" fill="black">Fresh Chicken</text>
+</svg>

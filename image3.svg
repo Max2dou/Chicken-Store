@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f8ff" />
+  <text x="400" y="50" font-size="40" text-anchor="middle" fill="#333">Chicken Farm Delivery Service</text>
+  <g>
+    <rect x="100" y="150" width="600" height="300" fill="#ffeb3b" />
+    <path d="M 100 150 L 150 50 L 200 150 Z" fill="#ff9800" />
+    <path d="M 300 150 L 350 50 L 400 150 Z" fill="#ff9800" />
+    <path d="M 500 150 L 550 50 L 600 150 Z" fill="#ff9800" />
+    <text x="400" y="230" font-size="24" text-anchor="middle" fill="#000">Home of Fresh Chicken</text>
+  </g>
+  <g>
+    <path d="M 120 470 C 200 400, 400 400, 480 470" stroke="#3e2723" stroke-width="10" fill="none" />
+    <circle cx="120" cy="460" r="12" fill="#d32f2f" />
+    <circle cx="480" cy="460" r="12" fill="#d32f2f" />
+    <text x="250" y="490" font-size="20" fill="#3e2723">Delivery Van</text>
+  </g>
+  <g>
+    <rect x="0" y="570" width="800" height="30" fill="#4caf50" />
+    <text x="400" y="590" font-size="16" text-anchor="middle" fill="#fff">Fast Service, Fresh Delivery</text>
+  </g>
+</svg>
